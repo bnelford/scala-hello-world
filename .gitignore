@@ -1,0 +1,75 @@
+# sbt specific
+target/
+lib_managed/
+src_managed/
+project/project/
+project/target/
+.cache
+.history
+.lib/
+dist/*
+
+# Worksheets (e.g., IntelliJ IDEA)
+*.sc
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA specific
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse specific
+.bin/
+.tmp_bin/
+.classpath
+.project
+.settings/
+.scala_dependencies
+.worksheet
+
+# VSCode specific
+.vscode/
+
+# Mac OS specific
+.DS_Store
+
+# Logs
+*.log
+
+# Output
+out/
+
+# Metals - Scala language server
+.metals/
+.bloop/
+.ammonite/
+
+# Others
+*.class
+*.log
+*.pyc
+.cache-main/
+.cache-tests/
+
+# Ensime - Older Scala Interaction Mode for Emacs
+.ensime
+.ensime_cache/
+
+# Build results
+out/
+bin/
+*.tasty
+
+# Dotty (Scala 3) specific directories
+out/
+.dotty-ide-artifact
+.dotty-ide.json
+
+doc/
+man/
+lib/
